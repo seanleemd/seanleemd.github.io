@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probability Dice Roll</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Probability Dice Roll</h2>
+        
+ <div class="probability-buttons">
+    <button onclick="setProbability(5)">5%</button>
+    <button onclick="setProbability(10)">10%</button>
+    <button onclick="setProbability(15)">15%</button>
+    <button onclick="setProbability(20)">20%</button>
+    <button onclick="setProbability(25)">25%</button>
+    <button onclick="setProbability(30)">30%</button>
+    <button onclick="setProbability(35)">35%</button>
+    <button onclick="setProbability(40)">40%</button>
+    <button onclick="setProbability(45)">45%</button>
+    <button onclick="setProbability(50)">50%</button>
+    <button onclick="setProbability(55)">55%</button>
+    <button onclick="setProbability(60)">60%</button>
+    <button onclick="setProbability(65)">65%</button>
+    <button onclick="setProbability(70)">70%</button>
+    <button onclick="setProbability(75)">75%</button>
+    <button onclick="setProbability(80)">80%</button>
+    <button onclick="setProbability(85)">85%</button>
+    <button onclick="setProbability(90)">90%</button>
+    <button onclick="setProbability(95)">95%</button>
+</div>
+
+
+        
+        <p>Selected probability: <span id="selectedProbability">50%</span></p>
+        
+        <button id="rollButton" onclick="rollDice()">Roll the dice</button>
+        
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
