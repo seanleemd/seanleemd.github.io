@@ -39,3 +39,16 @@ body {
 .probability-buttons button:active {
     background-color: #ccc;
 }
+#rollButton {
+    padding: 20px 40px;  /* Increase padding for a larger button */
+    font-size: 20px;     /* Increase font size for larger text */
+    background-color: #4CAF50;  /* Optional: change background color for emphasis */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;     /* Makes it clear it's clickable */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+#rollButton:hover {
+    background-color: #45a049; /* Slightly darker shade for hover effect */
+}
