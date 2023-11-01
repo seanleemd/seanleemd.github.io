@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.probability-buttons button {
+    /* ... (previous button styles) ... */
+    width: 60px;  /* Set a fixed width */
+    min-width: 60px; /* Ensure that the width doesn't shrink below the set value */
+    padding: 8px 12px;  /* Increased padding for better touch responsiveness */
+    margin: 4px;        /* Added margin to give space around each button */
+}
+
+.probability-buttons button {
+    flex: 1;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.probability-buttons button:active {
+    background-color: #ccc;
+}
